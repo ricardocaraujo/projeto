@@ -1,0 +1,126 @@
+@import url("open-iconic-master/font/css/open-iconic.css");
+@CHARSET "ISO-8859-1";
+
+body {
+	font-family: serif, sans-serif;
+}
+
+header div h1 {
+	font-size: x-large;
+}
+
+header div h2 {
+	font-size: x-large;
+}
+
+.linha {
+	width: 960px;
+	margin: auto;
+	overflow: auto;
+	padding: 10px;
+}
+
+label {
+	font-size: small;
+	color: gray;
+	display: block;
+}
+
+input, textarea{
+	display: block;
+	margin-bottom: 15px;
+}
+
+input[type=text] {
+	width: 400px;
+}
+
+textarea {
+	width: 450px;
+	height: 80px;
+}
+
+table  {
+	text-align: center;
+	vertical-align: middle;
+	font-size: small;
+	border-collapse: collapse;
+	border: 1px solid gray;
+}
+
+table, th, td {
+	border: 1px solid gray;
+	text-align: center;
+}
+
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+
+.menu {
+	text-align: right;
+}
+
+.botaomenu {
+	overflow: visible;
+}
+
+.elementos-em-linha {
+	width: 80px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+.datas-em-linha {
+	margin-right: 20px;
+	display: inline-block;
+}
+	
+/* 
+.coluna	{
+	float: left;
+}
+
+.col1 {
+	width: 460px;
+}
+
+.col2 {
+	width: 940px;
+}
+
+.col3 {
+	width: 220px;
+}
+
+.col4 {
+	width: 700px;
+}
+
+a:LINK, a:VISITED {
+	color: black;
+	text-decoration: none;
+}
+
+a:HOVER {
+	color: blue;
+} 
+
+.form-div-esquerda {
+	width: 200px;
+	float: left;
+}
+
+.nomecoluna {
+	margin: auto;
+	border: gray;
+}
+
+.conteudocoluna {
+	font: gray;
+	margin: auto;
+}
+
+*/
