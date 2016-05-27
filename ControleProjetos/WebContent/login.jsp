@@ -7,10 +7,14 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-	<c:import url="header.jsp"></c:import>
-		<div class="linha">	
-			Já existe um projeto cadastrado com este nome!
-		</div>
+	<div class="linha">
+		<form action="mvc">
+			Usuário: <input type="text" name="nome">
+			Senha:   <input type="password" name="senha">
+			<input type="submit" value="Logar">
+			<input hidden="true" name="logica" value="LoginLogic"/>
+		</form>
+	</div>
+
 </body>
 </html>
